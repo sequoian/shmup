@@ -83,11 +83,11 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>C:\Users\Zach\source\repos\Shmup\Thirdparty\SDL2_Image\include;C:\Users\Zach\source\repos\Shmup\Thirdparty\SDL2\include;$(IncludePath)</IncludePath>
+    <IncludePath>$(SolutionDir)\Thirdparty\SDL2_Image\include;$(SolutionDir)\Thirdparty\SDL2\include;$(IncludePath)</IncludePath>
     <LibraryPath>C:\Users\Zach\source\repos\Shmup\Thirdparty\SDL2_Image\lib\x86;C:\Users\Zach\source\repos\Shmup\Thirdparty\SDL2\lib\x86;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <IncludePath>C:\Users\Zach\source\repos\Shmup\Thirdparty\SDL2_Image\include;C:\Users\Zach\source\repos\Shmup\Thirdparty\SDL2\include;$(IncludePath)</IncludePath>
+    <IncludePath>$(SolutionDir)\Thirdparty\SDL2_Image\include;$(SolutionDir)\Thirdparty\SDL2\include;$(IncludePath)</IncludePath>
     <LibraryPath>C:\Users\Zach\source\repos\Shmup\Thirdparty\SDL2_Image\lib\x86;C:\Users\Zach\source\repos\Shmup\Thirdparty\SDL2\lib\x86;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
